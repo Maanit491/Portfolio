@@ -83,7 +83,7 @@ p {
 #header .header {
 	min-height: 8vh;
 	background-color: rgba(31, 30, 30, 0.24);
-	transition: 0.3s ease background-color;
+	/* transition: 0.3s ease background-color; */
 }
 #header .nav-bar {
 	display: flex;
@@ -108,7 +108,7 @@ p {
 	align-items: center;
 	z-index: 1;
 	overflow-x: hidden;
-	transition: 0.5s ease left;
+	/* transition: 0.5s ease left; */
 }
 #header .nav-list ul.active {
 	left: 0%;
@@ -133,10 +133,10 @@ p {
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
-	transition: 0.3s ease letter-spacing;
+	/* transition: 0.3s ease letter-spacing; */
 }
 #header .nav-list ul li:hover a::after {
-	transform: translate(-50%, -50%) scale(1);
+	/* transform: translate(-50%, -50%) scale(1); */
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
@@ -154,7 +154,7 @@ p {
 	justify-content: center;
 	z-index: 100;
 	cursor: pointer;
-	transform: scale(0.8);
+	/* transform: scale(0.8); */
 	margin-right: 20px;
 }
 #header .hamburger:after {
