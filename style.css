@@ -406,6 +406,8 @@ p {
 /* End Projects section */
 .usip{
 	display: flex;
+	border: 2px solid black;
+	padding: 35px;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
