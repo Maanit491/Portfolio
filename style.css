@@ -16,6 +16,7 @@ a {
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
 }
@@ -268,12 +269,17 @@ p {
 #services .services {
 	flex-direction: column;
 	text-align: center;
+	justify-content: center;
+	align-items: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
 #services .service-top {
-	max-width: 500px;
+	max-width: 100vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 	margin: 0 auto;
 }
 #services .service-bottom {
@@ -398,7 +404,12 @@ p {
 	transform: scale(1.1);
 }
 /* End Projects section */
-
+.usip{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
 /* About Section */
 #about .about {
 	flex-direction: column-reverse;
